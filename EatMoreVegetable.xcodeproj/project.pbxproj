@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5215C37D1E63526D006C0EC3 /* Datamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5215C37B1E63526D006C0EC3 /* Datamodel.xcdatamodeld */; };
 		52D195D91E62F354004D4F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D195D81E62F354004D4F8B /* AppDelegate.swift */; };
 		52D195DB1E62F354004D4F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D195DA1E62F354004D4F8B /* ViewController.swift */; };
 		52D195DE1E62F354004D4F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D195DC1E62F354004D4F8B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5215C37C1E63526D006C0EC3 /* Datamodel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Datamodel.xcdatamodel; sourceTree = "<group>"; };
 		52D195D51E62F354004D4F8B /* EatMoreVegetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatMoreVegetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D195D81E62F354004D4F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D195DA1E62F354004D4F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				52D195D81E62F354004D4F8B /* AppDelegate.swift */,
 				52D195DA1E62F354004D4F8B /* ViewController.swift */,
 				52D195DC1E62F354004D4F8B /* Main.storyboard */,
+				5215C37B1E63526D006C0EC3 /* Datamodel.xcdatamodeld */,
 				52D195DF1E62F354004D4F8B /* Assets.xcassets */,
 				52D195E11E62F354004D4F8B /* LaunchScreen.storyboard */,
 				52D195E41E62F354004D4F8B /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					52D195D41E62F353004D4F8B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SBWZW765RG;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D195DB1E62F354004D4F8B /* ViewController.swift in Sources */,
+				5215C37D1E63526D006C0EC3 /* Datamodel.xcdatamodeld in Sources */,
 				52D195D91E62F354004D4F8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SBWZW765RG;
 				INFOPLIST_FILE = EatMoreVegetable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.EatMoreVegetable;
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SBWZW765RG;
 				INFOPLIST_FILE = EatMoreVegetable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianadvent.EatMoreVegetable;
@@ -297,8 +304,22 @@
 				52D195E91E62F354004D4F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5215C37B1E63526D006C0EC3 /* Datamodel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5215C37C1E63526D006C0EC3 /* Datamodel.xcdatamodel */,
+			);
+			currentVersion = 5215C37C1E63526D006C0EC3 /* Datamodel.xcdatamodel */;
+			path = Datamodel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 52D195CD1E62F353004D4F8B /* Project object */;
 }
